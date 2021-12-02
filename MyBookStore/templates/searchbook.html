@@ -1,0 +1,11 @@
+<h1>
+    List of Books is
+</h1>
+
+<ul>
+{% for book in object_list %}
+<li>
+    {{book.title}} , {{book.author}}
+</li>
+{% endfor %}
+</ul>

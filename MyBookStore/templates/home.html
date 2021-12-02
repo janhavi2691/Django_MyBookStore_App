@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html>
+<html>
+{% load static %}
+<head>
+<title>My Book Store</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="/static/style.css" type="text/css" />
+</head>
+<body>
+  {% block content %}
+<div id="outer">
+  <div id="container">
+    <div id="wrap">
+      <div id="title"><font color="#660066" size="+6" face="Verdana, Arial, Helvetica, sans-serif">MY BOOK STORE</font></div>
+      <div id="header"></div>
+      <div id="navcontainer">
+
+        
+      </div>
+      <div class="content">
+        
+        <h3>Welcome to My Book Store!</h3>
+        <p> This is an user friendly interface for creating, and updating books data. It also provides services 
+          like searching books on Author names.</p>
+        
+        <!-- end page content -->
+
+        
+      </div>
+
+      <form action="/searchresults/" method="get">
+        <input name="q" type="text" placeholder="Search Book by Author..." size="50">
+        <input name ="Search" type="submit" value="Submit">
+    </form>
+
+    
+      
+  </div>
+  <div class="footer">
+             
+    <ul id="navlist li">
+        <a href="/admin/MyBookStore/">Create Book &nbsp;&nbsp;</a> 
+       <a href="/home/">Home</a>
+       
+      </ul>
+     
+</div>
+</div>
+{% endblock %}
+</body>
+</html>

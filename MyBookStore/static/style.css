@@ -1,0 +1,122 @@
+body{
+    background: #eee5b1;
+    margin:0px;
+    font: 10pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif; 
+    color: #660066;
+    }
+    
+    A:link{ color:#E8E4CE; text-decoration:none; }
+    A:hover{ color:white; text-decoration:underline; }
+    A:active{ color:#B56115; text-decoration:none; }
+    A:active:hover{ color:#333333; text-decoration:underline; }
+    A:visited{ color:#B56115; text-decoration:none; }
+    A:visited:hover{ color:#333333; text-decoration:underline; }
+    
+    
+    #wrap{
+    width:640px;
+    margin:20px;
+    margin-left:40px;
+    margin-right:40px;
+    border: black 1px solid;
+    }
+    
+    #container{
+    width:640px;
+    }
+    
+    #navcontainer{
+    background:transparent;
+    margin-top:-160px;
+    margin-left:400px;
+    
+    }
+    
+     #navlist li{
+    background:transparent;
+    list-style-type: none;
+    text-align:right;
+    font-family: 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    font-size:14px;
+    letter-spacing:-2px;
+    color:#006699;
+    width:150px;
+    }
+    
+    #navlist li a:link {
+        color: #C0B68F;
+        text-decoration:none;
+        font-weight: bold;
+    }
+    
+    #navlist li a:visited {
+        color: #000066;
+        text-decoration:none;
+        font-weight: bold;
+    }
+    
+    #navlist li a:hover {
+        color: #E8E4CE;
+        text-decoration:none;
+        font-weight: bold;
+    }
+    
+    h3{
+    font-size:18px;
+    font-weight:bold;
+    color:#000066;
+    letter-spacing:-2px;
+    }
+    
+    .content{
+    background: #ffdd55;
+    padding:21px;
+    text-align:justify;
+    font: 9pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    }
+    
+    #footer{
+    background:#C0B68F;
+    padding:9px;
+    text-align:center;
+    font: 8pt/9pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    }
+    
+    #title{
+    background: #C0B68F;
+    text-align:right;
+    padding:9px;
+    font-family: 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    font-size:10px;
+    text-transform:uppercase;
+    color:#FFFFFF;
+    }
+    #header{
+    background: url(books.jpg) #C0B68F no-repeat center;
+    width:640px;
+    height: 350px;
+    margin-left:auto;
+    margin-right:auto;
+    }
+    
+    #outer{
+    background: #D8D1AB ;
+    width:700px;
+    margin:0px;
+    margin-top:20px;
+    margin-left:150px;
+    margin-right:150px;
+    border:  2px ;
+    }
+    
+    .pullquote {
+    color:#FFFFFF;
+    width:150px;
+    float:right;
+    width:150px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    padding-bottom:10px;
+    font-family:'Lucida Grande', Helvetica, sans-serif;
+    }
