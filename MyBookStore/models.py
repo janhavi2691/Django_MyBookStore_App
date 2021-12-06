@@ -2,14 +2,17 @@ from django.db import models
 from django.db.models.deletion import CASCADE
 
 # Create your models here.
+
+'''
 class Author(models.Model):
     aname = models.CharField(name='Author Name',default='Enter Author Name', max_length=25)
     #booklist = models.TextField(name="List of Books authored by {}\n".format(aname))
     def __str__(self):
         return str(self.aname)
 
-
-
+'''
+# Main model of the application
+#Used to define database schema 
 class Book(models.Model):
     title = models.CharField(default='Write book title here',max_length=100)
     author = models.CharField(default='Write author name here',max_length=25)
