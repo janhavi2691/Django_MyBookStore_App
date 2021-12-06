@@ -2,7 +2,7 @@
 This is a small book store app which can be used to perform some basic logical things as a book store might be involved in like create books, and search books by author. 
 I will give a walkthrough the application.
 
-## Scope and Requirements are:
+## Scope:
 Create a Book Store App
   <li>Must be able to create book</li>
   <li>Create Author and relate Author with Books</li>
@@ -10,8 +10,7 @@ Create a Book Store App
   <li>Must use Python, Django</li>
   <li>Can use Javascript</li>
   <li>You can save data however you want</li>
-  <li>Deploy app to github.com  ( you can use Heroku.com to deploy freely)</li>
-
+  
 ### I tried to fulfill all the requirements (Basically Backend Part) to the best of my knowledge. 
 ### More variations are possible like fancy frontend and even more clarity on backend as well.     
 
