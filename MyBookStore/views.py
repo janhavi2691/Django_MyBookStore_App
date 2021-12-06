@@ -13,14 +13,17 @@ from .models import Author, Book
 #request - response
 #request handlers
 
+# Function to request admin page of the application: url is "http://localhost/admin/MyBookStore/" 
 def  Create_Book(request):
     return render(request,'/MyBookStore/')
 
 
-
+# It will be used to request home page for the application: url is "http://localhost/home/"
 class home_bookstore(TemplateView):
     template_name = 'home.html'
-
+    
+    
+#Used to search book by author name and lists book names for the particular author. Makes use of http GET method to extract user query from html form
 class search_book_by_author(ListView):
     model = Book
     template_name = 'searchresults.html'
@@ -31,8 +34,8 @@ class search_book_by_author(ListView):
         return object_list
 
     
-class home_view(TemplateView):
-    template_name = 'remhome.html'
+#class home_view(TemplateView):
+ #   template_name = 'remhome.html'
 
 
 
