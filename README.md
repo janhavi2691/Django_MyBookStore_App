@@ -1,6 +1,6 @@
 # Django_MyBookStore_App
 This is a small book store app which can be used to perform some basic logical things as a book store might be involved in like create books, and search books by author. 
-I will give a walkthrough the application.
+Tried to build a basic backend for book store. More variations are possible like fancy frontend and even more clarity on backend as well.
 
 ## Scope:
 Create a Book Store App
@@ -11,8 +11,6 @@ Create a Book Store App
   <li>Can use Javascript</li>
   <li>You can save data however you want</li>
   
-### I tried to fulfill all the requirements (Basically Backend Part) to the best of my knowledge. 
-### More variations are possible like fancy frontend and even more clarity on backend as well.     
 
 
 # Urls to get started with the App: 
